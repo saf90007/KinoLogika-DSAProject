@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{% static 'styles.css' %}" />
+    <title>Movie Details</title>
+  </head>
+
+  <body >
+    <img
+    class="logo"
+    src="{% static 'kinologo.png' %}"
+  />
+  <h1 class="title">Kino+Logika</h1>
+    <div class="topnav">
+      <a  href="/">Home</a>
+      <a  href="/about/">About</a>
+      <a   href="/recs/">Recommendations</a>
+      <a class="active" href="/movieData/"">Movie Data</a>
+      <a href="/actorData/"">Actor Data</a>
+
+    </div>
+    <div class="container">
+      <div class="column left-column">
+        
+        <div class="search-container">
+          <input
+            type="text"
+            id="movieSearch"
+            placeholder="Search for a movie..."
+          />
+          <div id="suggestions"></div>
+        </div>
+
+        <div id="movieDetails"></div>
+        <div id="actorDetails"></div>
+        <div id="actorMovies" class="movie-grid"></div>
+      </div>
+      
+
+    <script src="{% static 'movie_details.js' %}"></script>
+  
+  </body>
+</html>

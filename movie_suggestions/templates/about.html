@@ -1,0 +1,74 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}"/>
+    <title>About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{% static 'styles.css' %}" />
+  </head>
+  <body>
+    <img
+    class="logo"
+    src="{% static 'kinologo.png' %}"
+  />
+  <h1 class="title">Kino+Logika</h1>
+    <div class="topnav">
+        <a  href="/">Home</a>
+        <a class="active" href="/about/">About</a>
+        <a  href="/recs/">Recommendations</a>
+        <a href="/movieData/"">Movie Data</a>
+        <a href="/actorData/"">Actor Data</a>
+  
+      </div>
+    <div class="column right-column">
+        <h1 class="title" style="font-size: 40px; margin: 0px">About Us</h1>
+        <p style="line-height: 25px">
+          This project was made by us, Saffi and Anika. We are two CS students at
+          the University of Alaska, Anchorage. This was a semester project for
+          Data Structures and Algorithms, taught by Kamran Siddique. You can
+          read more about our project
+          <a href="https://docs.google.com/document/d/16gMYFPUV098BPTup7PcXFxwV34POaMhDGbIJH7-WHks/edit?usp=sharing" target="_blank">here.</a>
+        </p>
+        <br />
+        <h1 class="title" style="font-size: 40px; margin: 0px">Tech Stack</h1>
+        <p>
+          Backend:&nbsp;<a href="https://www.djangoproject.com/" target="_blank"
+            >Django</a
+          >
+        </p>
+
+        <p>
+          API:&nbsp;
+          <a
+            href="https://developer.themoviedb.org/reference/intro/getting-started"
+            target="_blank"
+            >TMDB</a
+          >
+        </p>
+
+        <p>
+          Styling:&nbsp;
+          <a href="https://www.w3schools.com/css/" target="_blank"
+            >W3 Schools [Vanilla]</a
+          >
+        </p>
+
+        <p>
+          Version Control:&nbsp;
+          <a href="https://github.com/" target="_blank">Github</a>
+        </p>
+
+
+      </div>
+    </div>
+
+  </body>
+</html>
