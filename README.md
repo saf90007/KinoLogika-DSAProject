@@ -24,6 +24,8 @@ If you want to try it out, you could contact us on one of these emails to get se
 anikahedden@gmail.com
 saffiullah.kr03@gmail.com
 
+For now, this is only a course project but we plan to add more features and turn this into an actual website later.
+
 # How to run the program
 
 Once you have all the necessary files, navigate to the directory where all these files are are and simply run this in the terminal:
