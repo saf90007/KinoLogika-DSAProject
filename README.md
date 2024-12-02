@@ -15,7 +15,7 @@ also search for recommendations based on a movie. This platform uses data struct
 Here's a link to our project report if you wish to read about our project in detail
 https://docs.google.com/document/d/16gMYFPUV098BPTup7PcXFxwV34POaMhDGbIJH7-WHks/edit?usp=sharing
 
-## Important Notice ##
+# Important Notice
 
 Since we're currently short on time and have to submit this project soon, we can't figure out how to upload the entire project
 by keeping our API Key a secret so we won't be uploading settings.py, a file that's necessary to run the progarm, to this repository just yet.
