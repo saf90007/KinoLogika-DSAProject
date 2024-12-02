@@ -127,7 +127,6 @@ class ActorMovieManager:
         return results
 
     def get_actor_movies(self, actor_name: str) -> List:
-        """Fetch movies for a specific actor name."""
         if actor_name in self.actor_movies:
             return self.actor_movies[actor_name]
 
